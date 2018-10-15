@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Crystals Collector</title>
+  <link rel="stylesheet" href="assets/css/reset.css">
+
+  <!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Crystal Collecting Game</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="crystal" value="4">4 points</div>
+            </div>
+            <div class="col-lg-3">
+                <div class="crystal" value="3">3 points</div>
+            </div>
+            <div class="col-lg-3">
+                <div class="crystal" value="5">5 points</div>
+            </div>
+            <div class="col-lg-3">
+                <div class="crystal" value="7">7 points</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <div>Goal: </div>
+                <div id="goal"></div>
+            </div>
+            <div class="col-lg-4">
+                <div>Score: </div>
+                <div id="score"></div>
+            </div>
+            <div class="col-lg-4">
+                <div>Wins: </div>
+                <div id="wins"></div>
+                <div>Losses: </div>
+                <div id="losses"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
