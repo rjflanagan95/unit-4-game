@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Crystals Collector</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/reset.css">
 
   <!-- Added link to the jQuery Library -->
@@ -18,34 +19,37 @@
         <div class="row">
             <div class="col-lg-12">
                 <h1>Crystal Collecting Game</h1>
+                <br>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-3">
-                <div class="crystal" value="4">4 points</div>
+                <div class="crystal" id="crystal1" value="4"><img src="assets/images/crystal1.png" alt="Crystal 1" width="150px" class="img-responsive d-flex align-items-center"/></div>
             </div>
             <div class="col-lg-3">
-                <div class="crystal" value="3">3 points</div>
+                <div class="crystal" id="crystal2" value="3"><img src="assets/images/crystal2.png" alt="Crystal 2" width="150px" class="img-responsive d-flex align-items-center"></div>
             </div>
             <div class="col-lg-3">
-                <div class="crystal" value="5">5 points</div>
+                <div class="crystal" id="crystal3" value="5"><img src="assets/images/crystal3.png" alt="Crystal 3" width="150px" class="img-responsive d-flex align-items-center"></div>
             </div>
             <div class="col-lg-3">
-                <div class="crystal" value="7">7 points</div>
+                <div class="crystal" id="crystal4" value="7"><img src="assets/images/crystal4.png" alt="Crystal 4" width="150px" class="img-responsive d-flex align-items-center"></div>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <div>Goal: </div>
                 <div id="goal"></div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <div>Score: </div>
                 <div id="score"></div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <div>Wins: </div>
                 <div id="wins"></div>
+            </div>
+            <div class="col-lg-3">
                 <div>Losses: </div>
                 <div id="losses"></div>
             </div>
